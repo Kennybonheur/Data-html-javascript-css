@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-UA-compatible" content="IE=edge">
+        <title> Apple school </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="logo.jpg">
+                 
+
+    </head>
+    <body>
+    <!-- the clickable link to interact with the content of this web site-->
+        <header>
+            <h2 class="logo">APPLE GROUP</h2>
+            <nav class="navigation">
+                <a href="#">Home</a><br><br>
+                <a href="#">About</a><br><br>
+                <a href="#">service</a><br><br>
+                <a href="#">Content</a><br><br>
+                <button class="btnlogin-popup">login</button>
+            </nav>
+        </header>
+        <!-- logical by dividing the element in form-->
+        <div class="wrapple">
+            <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span><!--in order to speed up --> 
+            
+            <!-- the from for the login in you account -->
+            <div class="form-box login">
+                <h2 style="color: blue;">Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline" style="color:green;"></ion-icon></span>
+                        <input type="email" required><label for="email" style="color:lightblue;">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline" style="color:green;"></ion-icon></span>
+                        <input type="password" required><label for="password" style="color: lightblue;">Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label for="account" style="color: lightblue;"><input type="checkbox">Remember Me</label>
+                        <a href="#">ForgatPassword</a>
+                    </div>
+                    <button type="submit" class="btn">submit</button>
+                    <div class="login-register">
+                        <p style="color: lightblue;">if you don't have an account<a href="#" class="register-link" >Register</a></p>
+                    </div>
+                </form>
+            </div>
+            
+            <!--if the user do not have the an account in the apple group. there we have form to creaat it-->
+            <div class="form-box Register">
+                <h2 style="color: blue;">Registration</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person-outline" style="color: greenyellow;"></ion-icon></span>
+                        <input type="text" required><label for="text" style="color:lightblue;">User Name</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline" style="color: greenyellow;"></ion-icon></span>
+                        <input type="text" required><label for="text" style="color:lightblue;">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline" style="color:greenyellow;"></ion-icon></span>
+                        <input type="password" required><label for="password" style="color: lightblue;">Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label for="account" style="color: lightblue;"><input type="checkbox">I gree to the terms and condition</label>
+                    </div>
+                    <button type="submit" class="btn">register</button>
+                    <div class="login-register">
+                        <p style="color: lightblue;">Already i have an account<a href="#" class="login-link" >login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- style in user inputs in the we have create in this form in order to increase the interactivity to the user in web form-->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="java.js"></script>                                                                 
+    </body>
+
+</html>
